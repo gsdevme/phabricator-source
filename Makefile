@@ -15,6 +15,6 @@ optimize:
 	rm -rf ./*/.git/
 
 migrate:
-	bin/storage upgrade --force
+	./phabricator/bin/storage upgrade --force
 
 all: build optimize
