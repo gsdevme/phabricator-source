@@ -1,6 +1,6 @@
 # phabricator-source
 
-This is a mirror of phabricator and its required dependencies.
+This is designed to be an omnibus of phabricator and its required dependencies.
 
 ## Why?
 
