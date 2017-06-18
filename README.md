@@ -26,7 +26,7 @@ deploy "phabricator" do
 
   rollback_on_error true
 
-  migration_command 'make'
+  migration_command 'make build && make migrate'
   migrate true
 
   symlink_before_migrate ({})
