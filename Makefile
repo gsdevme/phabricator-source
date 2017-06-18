@@ -5,6 +5,7 @@ build:
 	git clone --depth=1 -b stable https://github.com/phacility/libphutil.git
 	git clone --depth=1 -b stable https://github.com/phacility/arcanist.git
 	git clone --depth=1 -b stable https://github.com/phacility/phabricator.git
+	rm -rf phabricator/conf/local
 
 clean:
 	rm -rf libphutil && rm -rf arcanist && rm -rf phabricator
